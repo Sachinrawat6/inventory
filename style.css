@@ -1,0 +1,84 @@
+/* styles.css */
+body {
+    /* font-family: Arial, sans-serif;   */
+    font-family: 'Roboto', sans-serif;  /* Apply Roboto font */
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: rgb(82, 85, 82);
+    font-family: 'Poppins', sans-serif;  /* Apply Poppins font */
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    width: 150px;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  button.delete {
+    background-color: rgb(218, 69, 69);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button.delete:hover {
+    background-color: #a81e1e;
+  }
+  
+  #download-csv{
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+  }
+  

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventory Management</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container">
+    <h1>Inventory Management System</h1>
+    <button id="download-csv">Download Inventory as CSV</button>
+
+    <div class="form">
+      <input type="text" id="item-name" placeholder="Enter sytle number">
+      
+      
+      <select name="size" id="item-size">
+        <option value="">Select size</option>
+        <option value="XXS" class="size">XXS</option>
+        <option value="XS">XS</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="2XL">2XL</option>
+        <option value="3XL">3XL</option>
+        <option value="4XL">4XL</option>
+        <option value="5XL">5XL</option>
+      </select>
+      <input type="number" id="item-quantity" placeholder="Quantity" value="">
+      <input type="text" id="item-color" placeholder="Color">
+
+      <button id="add-item">Add Item</button>
+    </div>
+
+    <h2>Inventory List</h2>
+    <table id="inventory-list">
+      <thead>
+        <tr>
+          <th>Style Number</th>
+          <th>Size</th>
+          <th>Quantity</th>
+          <th>Color</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
